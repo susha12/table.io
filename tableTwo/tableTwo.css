@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&family=Titillium+Web:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color:#f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+}
+.box_table2{
+    border: 2px solid rgb(240, 233, 233);
+    width: 750px;
+    background-color: #ffffff;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:center;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+.table2_name{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    position: relative;
+    width: 100%;
+    top: 0px;
+    font-size: 26px;
+    color: #787878;
+    height: 110px;
+    font-weight: 700;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #f8f8f8;
+    border-bottom: 2px solid rgb(214, 214, 214);
+}
+.table2_name__nameThree,
+.table2_name__nameSeven,
+.table2_name__nameEight{
+    font-weight: 900;
+    font-size: 28px;
+}
+.box_right_border,
+.box_left_border{
+    height: 94%;
+    width: 2px;
+    background-color: #b9b9b9;
+    position: absolute;
+    bottom: 2px;
+    left: 43%;
+    z-index: 10;
+}
+.box_right_border{
+    left: 75%;
+}
+.table2_name__nameTwo{
+    margin-left: 10px;
+}
+.row2_one,
+.row2_two,
+.row2_three,
+.row2_four,
+.row2_five,
+.row2_six{
+    height: 100px;
+    font-size: 24px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    color: #000000;
+    border-bottom: 2px solid rgb(222, 222, 222);
+}
+.colump_1{
+    position: relative;
+    left: 10px;
+    font-weight: 900;
+}
+.colump_4,
+.colump_5,
+.colump_5,
+.colump_6,
+.colump_7{
+    position: relative;
+    right: 30px;
+}
+.colump_2{
+    position: relative;
+    right: 40px;
+    font-weight: 900;
+}
+.colump_3{
+    position: relative;
+    right: 40px;
+    font-weight: 900;
+}
+.colump_7{
+    font-weight: 900;
+}
+.colump_8{
+    position: relative;
+    right: 20px;
+    font-weight: 900;
+}
+.img2_FCB,
+.img2_BVB,
+.img2_B04,
+.img2_ACM,
+.img2_NAP,
+.img2_INT,
+.img2_JUV,
+.img2_LAZ,
+.img2_ATA{
+    width: 34px;
+}
